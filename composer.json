@@ -1,0 +1,41 @@
+{
+    "name": "erdmannfreunde/contao-news-meta",
+    "type": "contao-bundle",
+    "description": "Contao-News-Meta",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Dennis Erdmann",
+            "homepage": "https://www.erdmann-freunde.de"
+        },
+        {
+            "name": "Frank Mueller",
+            "homepage": "https://www.linking-you.de"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "contao/core-bundle": "^4.4",
+        "symfony/framework-bundle": "^3.3"
+    },
+    "conflict": {
+        "contao/core": "*",
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0",
+        "doctrine/doctrine-cache-bundle": "^1.3",
+        "friendsofphp/php-cs-fixer": "^2.6",
+        "leofeyer/optimize-native-functions-fixer": "^1.1",
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/message-factory": "^1.0.2"
+    },
+    "extra": {
+        "contao-manager-plugin": "EuF\\ContaoNewsMeta\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "EuF\\ContaoNewsMeta\\": "src/"
+        }
+    }
+}
