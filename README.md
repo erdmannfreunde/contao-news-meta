@@ -1,14 +1,5 @@
 # Contao News Meta
 
-Fügt zu den Contao News noch die Felder **Meta-Titel** und **Meta-Beschreibung** hinzu.
+Fügt zu den Contao News noch die Felder **Meta-Title** und **Meta-Description** hinzu.
 
-Diese können dann im Template mit
-
-```<?= $this->meta_title; ?>```
-
-bzw.
-
-```<?= $this->meta_description; ?>```
-
-ausgeben werden.
-
+Falls diese befüllt werden, werden bei der News-Detail-Ansicht der Page-**title** und der Meta-Tag **description** überschrieben.

@@ -41,7 +41,13 @@ class NewsMeta extends Frontend
             return; // not found
         }
 
-        $objPage->meta_title = $news->meta_title;
-        $objPage->meta_description = $news->meta_description;
+        if ($news->meta_title) {
+            $objPage->pageTitle = $news->meta_title;
+        }
+
+        if ($news->meta_description) {
+            $objPage->description = $news->meta_description;
+        }
+
     }
 }
