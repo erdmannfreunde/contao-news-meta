@@ -11,7 +11,7 @@
  * @package    euf_hero
  * @author     Dennis Erdmann
  * @author     Frank Müller
- * @copyright  2016-2018 Erdmann & Freunde
+ * @copyright  2018 Erdmann & Freunde
  * @license    LICENSE LGPL-3.0
  *
  */
