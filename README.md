@@ -1,5 +1,6 @@
 # Contao News Meta
 
-Fügt zu den Contao News noch die Felder **Meta-Title** und **Meta-Description** hinzu.
+Fügt zu den Contao News die Felder **Meta-Title** und **Meta-Description** hinzu und gibt diese auf der News-Detail-Seite aus.
+Werden die Felder nicht ausgefüllt, wird der Contao Standard verwendet.
 
-Falls diese befüllt werden, werden bei der News-Detail-Ansicht der Page-**title** und der Meta-Tag **description** überschrieben.
+_Die Erweiterung wurde [von JUMEDIA Webagentur GmbH](https://www.jumedia.ch/)  beauftragt und finanziert._
