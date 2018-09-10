@@ -18,7 +18,6 @@
 
 namespace EuF\ContaoNewsMeta;
 
-use EuF\ContaoNewsMeta\DependencyInjection\ContaoMetaNewsExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class ContaoNewsMetaBundle extends Bundle
