@@ -23,8 +23,4 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class ContaoNewsMetaBundle extends Bundle
 {
-    public function getContainerExtension()
-    {
-        return new ContaoMetaNewsExtension();
-    }
 }
